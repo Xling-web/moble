@@ -1,0 +1,6 @@
+echo "# ceshi" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/tao-xin-long/ceshi.git   //添加新的远程仓库：
+git push -u origin main  // 将到本地master分支内容推到远程master分支上
